@@ -10,7 +10,7 @@ require "sendgrid-ruby"
 
 
 
-get "/home" do
+get "/" do
 
     erb(:main)  
 end

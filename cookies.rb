@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+class Cookies
+    attr_reader :name, :price, :description
 
-gem 'sinatra'
-gem 'sendgrid-ruby'
+    def initialize(name, price, description)
+        @name, @price, @description = name, price, description
+    end
+end
